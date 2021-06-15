@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="iPhone 11 Series"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/iphone11series" />
+
+    <ScrollView android:layout_marginTop="240dp"
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textColor="#b00d23"
+                android:layout_width="411dp"
+                android:layout_height="350dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="8dp"
+                android:text="According to Apple, all three iPhone models will support dual-SIM connectivity via a Nano-SIM card slot and an eSIM. The phones also run on iOS 13 and pack the Lightning connector. The iPhone 11 features a 6.1-inch Liquid Retina HD (828x1792 pixels) display with 326ppi and 625-nit peak brightness."
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#e6be8a"
+                android:layout_width="411dp"
+                android:layout_height="1000dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="8dp"
+                android:text="The optics did see a large change, switching from an f/2.4 aperture to a larger f/2.0 in the new series, along with OIS. This module isn't featured on the regular iPhone 11, making it exclusive to the Pro models. Finally, the big new addition to the cameras is the introduction of an ultra-wide-angle module."
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

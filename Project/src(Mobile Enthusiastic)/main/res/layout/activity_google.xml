@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Google">
+
+<EditText
+    android:id="@+id/editTextTextPersonName"
+    android:layout_width="305dp"
+    android:layout_height="87dp"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="textPersonName"
+    android:text="Google"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.024" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="162dp"
+    android:layout_height="179dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.214"
+    app:srcCompat="@drawable/googlelogo" />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="406dp"
+    android:layout_height="39dp"
+    android:text="Pixel 5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="#33629a"
+    android:textColor="@color/white"/>
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="406dp"
+    android:layout_height="39dp"
+    android:text="Pixel 4a and 4a (5G)"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.6"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.588"
+    android:background="#33629a"
+    android:textColor="@color/white"/>
+
+
+</android.support.constraint.ConstraintLayout>

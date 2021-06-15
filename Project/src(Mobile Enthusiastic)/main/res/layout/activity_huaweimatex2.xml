@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Huawie Mate x2"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="251dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@drawable/huaweimatex2" />
+
+    <ScrollView android:layout_marginTop="300dp"
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="411dp"
+                android:layout_height="469dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="8dp"
+                android:text="The dual-SIM (Nano) Huawei Mate X2 runs Android 10 with EMUI 11.0 on top. On the outside, the phone features a 6.45-inch OLED display with 1,160x2,700 pixels resolution with 90Hz refresh rate, 240Hz touch sampling rate, and 456ppi pixel density. ... The phone is powered by the octa-core Kirin 9000 SoC and Mali-G78 GPU."
+                android:textColor="#add3de"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="411dp"
+                android:layout_height="712dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="8dp"
+                android:text="The Huawei Mate X2 is an Android-based high end foldable smartphone produced by Huawei.[3] The phone, unveiled on 22 February 2021, serves as the successor to the Mate X and Mate Xs. The phone was vastly redesigned from the previous generation, adopting a dual-screen design very similar to the Samsung Galaxy Z Fold 2"
+                android:textColor="#e6be8a"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

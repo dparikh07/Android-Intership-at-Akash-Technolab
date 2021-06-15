@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xperia5III">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Xperia 5 III"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView android:layout_marginTop="50dp"
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="213dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        app:srcCompat="@drawable/xperia5iii" />
+
+    <ScrollView android:layout_marginTop="240dp"
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="411dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="8dp"
+            android:text="Variable tele lens and Dual PD sensor with Real-time Eye AF.
+360 Reality Audio through its speakers, 360 Spatial Sound up-mixing.
+120Hz 6.1” HDR OLED display1 “powered by CineAlta”.
+Triple camera with four focal lengths and object tracking.
+Win with Game Enhancer’s custom display, audio and mic. settings.
+Evolved Full-stage front facing stereo speakers for enhanced sound.
+Use as high-quality external monitor7 and live stream29 from your camera.
+IP65/68 water resistance8 and Corning® Gorilla® Glass 6 display9.
+5G connectivity and speed10; Qualcomm® Snapdragon™ 888 5G Mobile Platform11.
+Long 4500mAh battery life charges up to 50% capacity in 30 minute12.
+Outstanding ZEISS® quality lenses calibrated specifically for Xperia.
+Dedicated ergonomic shutter button.
+Large 1/1.7 backside illuminated stacked Exmor RS image sensor13.
+Photos up to 20fps with AF/AE tracking up to 60 times per sec.3.
+Focus fast with Dual Photo Diode AF sensors3.
+AI Super Resolution technology delivers quality digital zoom images.
+Photo Pro inspired by Alpha for manual control and quick snapshots.
+Cinematography Pro “powered by CineAlta” for advanced video rec.14.
+Shoot stunning slow-motion movie in 4K HDR up to 120fps15.
+Intelligent wind filter records video with better audio.
+Optical SteadyShot™ with FlawlessEye™16 for stable movie recording.
+3.5mm audio jack with superior circuitry enhances clarity and volume.
+Dolby Atmos®17 delivers a multi-dimensional surround sound experience.
+Superior High-Resolution Audio, High-Res. Audio Wireless18 and LDAC.
+X1™ for mobile based on technology from BRAVIA® TV.
+10-bit equivalent display19 for smooth color without banding.
+Accurate color reproduction from white point display calibration.
+Game winning display; 120Hz1 21:9 CinemaWide™1 with 240Hz Motion blur20.
+Share your win with high quality game recording and Rewind Time rec.
+Heat Suppression Power Control while charging during gameplay.
+Take control of gaming with DUALSHOCK®4 wireless controller21."
+            android:textColor="#111111"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>
